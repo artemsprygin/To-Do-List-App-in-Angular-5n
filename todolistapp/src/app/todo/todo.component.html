@@ -19,6 +19,7 @@
       <span class="hover-cursor text-danger pull-right" (click)="onDelete(item.$key)">
         <i class="fa fa-trash-o fa-lg"></i>
       </span>
+      <a routerLink="['/task',item['$key']]">Details</a>
     </li>
   </ul>
 </div>
